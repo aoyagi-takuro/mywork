@@ -49,9 +49,14 @@ header li {
 .section-works  {
     
 }
-.section-works img {
-    width: 240px;
-    height: 160px;
+.works-image-container{
+    width: 100%;
+    text-align: center;
 }
+.works-img {
+    width: 240px;
+    height: 160px; 
+    margin: 16px;  
+} 
 
 
