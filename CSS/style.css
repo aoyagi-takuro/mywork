@@ -90,12 +90,14 @@ header li {
 
 .works-image-container{
     width: 100%;
-    text-align: center;
+　  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .works-img {
-    width: 240px;
-    height: 160px; 
-    margin: 16px; 
+    width: 271px;
+    height: 188px; 
+    margin-bottom: 24px; 
 } 
 
 @media screen and (max-width: 600px) {
@@ -125,12 +127,6 @@ header li {
 .news-date {
     margin-right: 80px;
 }
-
-/* @media screen and (max-width: 600px) { */
-    .news-date {
-        margin-right: 100%;
-    }
- }
 
  .date {
      display: none;
