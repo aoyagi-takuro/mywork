@@ -126,6 +126,21 @@ header li {
     margin-right: 80px;
 }
 
+/* @media screen and (max-width: 600px) { */
+    .news-date {
+        margin-right: 100%;
+    }
+ }
+
+ .date {
+     display: none;
+ }
+
+ @media screen and (max-width: 600px) {
+    .date {
+        display: block;
+    }
+}
 .contact-form {
     border: 1px solid black;
     width: 85%;
