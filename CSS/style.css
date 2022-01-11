@@ -5,6 +5,7 @@ header {
     height: 280px;
     padding: 0 4%;
     margin: 0 auto;
+    max-width: 960px;
 }
 
 header h1 {
@@ -94,8 +95,20 @@ header li {
 .works-img {
     width: 240px;
     height: 160px; 
-    margin: 16px;  
+    margin: 16px;
+    max-width: 100%;  
 } 
+
+@media screen and (max-width: 600px) {
+    .works-image-container {
+        display: block;
+    }
+    .works-img {
+        width: 552px;
+        height: 339px;
+
+    }
+}
 
 .news-item {
     margin: 0 auto;
