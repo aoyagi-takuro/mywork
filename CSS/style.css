@@ -73,6 +73,7 @@ header li {
 .section-container {
     margin: 0 auto 130px auto;
     max-width: 960px;
+    padding: 0 4%;
 }
 
 .section-title {
@@ -86,9 +87,6 @@ header li {
     margin-bottom: 24px;
 }
 
-.section-works  {
-    
-}
 .works-image-container{
     width: 100%;
     text-align: center;
